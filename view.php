@@ -18,6 +18,7 @@
     
     ?>
     <table class = "table table-striped">
+        <h1><a href="insertData.php">INSERT DATA BARU</a></h1>
         <tr>
             <th>Nomor</th>
             <th>NIM</th>

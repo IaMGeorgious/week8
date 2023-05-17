@@ -21,6 +21,7 @@
 
             $sql = "INSERT INTO mahasiswa (NIM, Nama, jenis_kelamin) VALUES ('$NIM', '$Nama', '$jenis_kelamin')";
             $hasil = $conection->query($sql);
+            header("refresh:2;url = view.php");
         }
         ?>
         <h1>Form Input Data</h1>
